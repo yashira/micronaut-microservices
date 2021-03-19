@@ -1,3 +1,11 @@
 micronaut:
   application:
-    name: studentService
+    name: student-service
+  config-client:
+    enabled: true
+
+consul:
+  client:
+    defaultZone: "127.0.0.1:8500"
+    config:
+      format: YAML

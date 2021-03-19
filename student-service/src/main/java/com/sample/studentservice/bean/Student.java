@@ -1,9 +1,5 @@
 package com.sample.studentservice.bean;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
-
 public class Student {
     private Long id;
     private String name;

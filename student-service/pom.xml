@@ -19,7 +19,7 @@
     <!-- If you are building with JDK 9 or higher, you can uncomment the lines below to set the release version -->
     <!-- <release.version>8</release.version> -->
     <micronaut.version>2.3.4</micronaut.version>
-    <exec.mainClass>com.sample.studentservice.Application</exec.mainClass>
+    <exec.mainClass>com.sample.studentservice.StudentApplication</exec.mainClass>
     <micronaut.runtime>netty</micronaut.runtime>
   </properties>
 
@@ -75,6 +75,10 @@
       <groupId>io.micronaut.test</groupId>
       <artifactId>micronaut-test-junit5</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.micronaut</groupId>
+      <artifactId>micronaut-discovery-client</artifactId>
     </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
